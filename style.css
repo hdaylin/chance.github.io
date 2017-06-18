@@ -1,0 +1,35 @@
+h1{
+    color:deeppink; 
+    font-family:sans-serif; 
+    font-size: 50px;
+    font-weight: 200;
+} 
+
+p {
+    font-family:serif;
+    font-size: 20px;
+} 
+
+.btn-primary {
+    color: #ffffff;
+    background-color: rgba(255, 20, 147, 0.83);
+    border-color: rgba(255, 20, 147, 0.83);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-group.open .dropdown-toggle.btn-primary {
+    background-color: #2453a0;
+    border-color: #2453a0;
+} 
+
+.parallax { 
+    /* The image used */
+    background-image: url("http://media.gq.com/photos/586fbb69b730b94511591fa7/16:9/w_1280/chance-the-rapper-0217-GQ-FECH03-01.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
